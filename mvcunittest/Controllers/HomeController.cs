@@ -29,8 +29,8 @@ namespace mvcunittest.Controllers
 
         public ActionResult Details(int Id)
         {
-            var prod = new mvcunittest.Models.Product(Id, "Laptop");
-            return View("Details", prod);
+            var product = new mvcunittest.Models.Product(Id, "Laptop");
+            return View("Details", product);
         }
     }
 }
