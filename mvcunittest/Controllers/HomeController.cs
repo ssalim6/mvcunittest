@@ -29,7 +29,7 @@ namespace mvcunittest.Controllers
 
         public ActionResult Details(int Id)
         {
-            var product = new mvcunittest.Models.Product(Id, "Lappy");
+            var product = new mvcunittest.Models.Product(Id, "Laptop");
             return View("Details", product);
         }
     }
